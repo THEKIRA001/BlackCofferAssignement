@@ -1,0 +1,61 @@
+nav {
+margin: 10px;
+  background-color: #333;
+  border-radius: 10px;;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Align items to opposite ends */
+  align-items: center;
+  /* Vertically center items */
+  padding: 10px 20px;
+  /* Add padding to create space around items */
+}
+
+.logo img {
+  
+ width: 13rem;;
+ height:5rem;
+ padding-left:90px;
+  /* Adjust the height as needed */
+}
+
+.homebutton
+{
+padding-right:70px;
+}
+
+.technologyUsedbutton
+{
+  padding-right: 70px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+   justify-content:center;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+

@@ -1,0 +1,73 @@
+/* AboutMe.css */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: linear-gradient(to right, #bdb9a7, #f5d5af);
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0 4px 6px rgba(20, 7, 7, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: 650px;
+  height: 450px;
+  overflow: hidden;
+  /* Prevent shadow clipping with rounded corners */
+  border-radius: 10px;
+  
+  
+}
+
+.card:hover {
+  box-shadow: 0 15px 15px rgba(2, 1, 1, 0.2);
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+}
+
+.right {
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+  padding-top: 70px;
+  line-height: 1.6;
+}
+
+.right h2 {
+  margin-bottom: 10px;
+  color: #333;
+  /* Adjust heading color */
+  transition: color 0.3s ease;
+}
+
+.right p {
+  color: #555;
+  /* Adjust paragraph text color */
+  transition: color 0.3s ease;
+}
+
+.right h3 {
+  margin-top: 20px;
+  color: #444;
+  /* Adjust subheading color */
+  transition: color 0.3s ease;
+}
+
+.left img {
+  margin-top: 57px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  /* Add a subtle border radius to the image */
+}
+
+.skillsetcolumn
+{
+ padding-top:50px; 
+}
