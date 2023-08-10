@@ -48,7 +48,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ## Acknowledgments
-- This project was developed as part of an assignment for BlackCo.
+- This project was developed as part of an assignment for BlackCoffer.
 
 
 
