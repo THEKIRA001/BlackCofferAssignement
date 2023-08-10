@@ -27,6 +27,12 @@ Spring Boot for the backend and React.js for the frontend. It leverages various 
 - Chart.js
 - MongoDB (hosted on MongoDB Atlas)
 
+## Tools Used
+- Eclipse
+- Postman
+- VS Code
+- MongoDB Atlas
+
 ## Getting Started
 
 ### Prerequisites
