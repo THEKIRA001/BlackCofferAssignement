@@ -1,4 +1,3 @@
-# BlackCofferAssignement
 # Data Visualization Dashboard
 
 ## Overview
@@ -51,10 +50,4 @@ Contributions are welcome! If you find any issues or have ideas for improvements
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-
-## Acknowledgments
-- This project was developed as part of an assignment for BlackCoffer.
-
-
 
