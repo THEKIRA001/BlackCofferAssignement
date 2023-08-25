@@ -18,7 +18,7 @@ import { Line } from 'react-chartjs-2';
   scales: {
       y: {
         min: 0,
-        max: 8,
+        max: 12,
       },
   },
 };
@@ -41,9 +41,8 @@ const IntensityLineGraph = ({selectedSector}) => {
               {
                 label: "Intensity",
                 data: intensity,
-                backgroundColor: 'black',
-                borderColor: 'black',
-                pointRadius: 1,
+                backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                borderColor: 'rgb(75, 192, 192)',
                 tension: 0.2
               },
             ],

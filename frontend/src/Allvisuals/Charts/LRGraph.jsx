@@ -44,14 +44,16 @@ const LRGraph = ({selectedRegion}) => {
               {
                 label: "Likelihood",
                 data: likelihood,
-                borderColor: 'blue',
+                borderColor: 'rgba(54, 162, 235, 0.6)',
+                backgroundColor: 'rgba(54, 162, 235, 0.6)',
                 pointRadius: 1,
                 tension: 0.2
               },
               {
                 label: "Relevance",
                 data: relevance,
-                borderColor: 'green',
+                borderColor: 'rgba(75, 192, 192, 0.6)',
+                backgroundColor: 'rgba(75, 192, 192, 0.6)',
                 pointRadius: 1, 
                 tension: 0.2
               },

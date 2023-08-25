@@ -42,7 +42,7 @@ const TopicBarGraph = ({selectedSector}) => {
           {
             label: "Topics According to Sector",
             data: topicsOccurance,
-            backgroundColor: "rgba(135,20,90)",
+            backgroundColor: "rgba(153, 102, 255, 0.4)",
           },
         ],
       });

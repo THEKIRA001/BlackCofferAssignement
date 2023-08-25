@@ -8,24 +8,24 @@
 .container
 {
   display:flex;
-  justify-content:center;
-  align-items:center;
-  border:1px solid rgb(206, 206, 206);
-  margin:10px;
   flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  border:1px solid rgb(206, 206, 206);
+  margin:5px;
   flex-wrap: wrap;
 }
 .chartCardContainer
 {
-  margin:10px; 
+  align-items: center;
+  width: 40vw;
+  margin: 50px;
   transition:0.8s;
-  padding:20px;
+  padding:80px;
   border:1px solid rgb(247, 243, 243);
 }
 
 .chartCardContainer:hover
-{
--webkit-box-shadow: 3px 10px 38px 19px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 3px 10px 38px 19px rgba(0, 0, 0, 0.46);
+{ 
   box-shadow: 3px 10px 38px 19px rgba(0, 0, 0, 0.46)
 }

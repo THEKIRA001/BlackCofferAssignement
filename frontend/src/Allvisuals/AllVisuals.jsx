@@ -50,39 +50,39 @@ function App() {
     <div className="container">
       <div className="chartCardContainer">
         <SectorFilter onSelectSector={handleSectorSelect1} />
-        <TopicChart selectedSector={selectSector1} />
+        <TopicChart className="charts" selectedSector={selectSector1} />
       </div>
       <div>
         <div className="chartCardContainer">
           <RegionFilter onSelectRegion={handleRegionSelect2} />
-          <CountryChart selectedRegion={selectRegion2} />
+          <CountryChart className="charts" selectedRegion={selectRegion2} />
         </div>
       </div>
       <div className="chartCardContainer">
         <RegionFilter onSelectRegion={handleRegionSelect3} />
-        <LRGraph selectedRegion={selectRegion3} />
+        <LRGraph className="charts" selectedRegion={selectRegion3} />
       </div>
       <div className="chartCardContainer">
         <SectorFilter onSelectSector={handleSectorSelect4} />
-        <IntensityGraph selectedSector={selectSector4}/>
+        <IntensityGraph className="charts" selectedSector={selectSector4}/>
       </div>
       <div className="chartCardContainer">
         <SectorFilter onSelectSector={handleSectorSelect5} />
-        <TopicBarGraph selectedSector={selectSector5} />
+        <TopicBarGraph className="charts" selectedSector={selectSector5} />
       </div>
       <div>
         <div className="chartCardContainer">
           <RegionFilter onSelectRegion={handleRegionSelect6} />
-          <CountryPolarChart selectedRegion={selectRegion6} />
+          <CountryPolarChart className="charts" selectedRegion={selectRegion6} />
         </div>
       </div>
       <div className="chartCardContainer">
         <RegionFilter onSelectRegion={handleRegionSelect7} />
-        <LRDoughnutChart selectedRegion={selectRegion7} />
+        <LRDoughnutChart className="charts" selectedRegion={selectRegion7} />
       </div>
       <div className="chartCardContainer">
         <SectorFilter onSelectSector={handleSectorSelect8} />
-        <IntensityLineGraph selectedSector={selectSector8}/>
+        <IntensityLineGraph className="charts" selectedSector={selectSector8}/>
       </div>
     </div>
   );

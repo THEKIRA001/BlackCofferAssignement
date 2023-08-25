@@ -12,12 +12,17 @@ const AboutMe = () => {
           <h2>Shubham Bolave</h2>
           <div className="skillsetcolumn">
             <h3>Skillset:</h3>
-            <p> React, JavaScript, HTML, CSS</p>
-            <p> Spring Boot, MongoDb , Java </p>
+            <p> Java, Spring Boot, JavaScript, React, Html/CSS, MongoDB, MySQL </p>
           </div>
-          <h3>ToolSet:-</h3>
-          <p> Github, Postman, Vscode, Eclipse , Intellijj Idea</p>
-          <p>Hobbies: Coding, Reading, Hiking</p>
+          <div className="toolsetcolumn">
+            <h3>ToolSet:-</h3>
+            <p> Github, Postman, Vscode, Eclipse, Intellij Idea</p>
+            <p></p>
+          </div>
+          <div className="hobbies">
+            <h3>Hobbies:-</h3>
+            <p>Coding, Reading, Travelling, Chess</p>
+          </div>
         </div>
       </div>
     </div>

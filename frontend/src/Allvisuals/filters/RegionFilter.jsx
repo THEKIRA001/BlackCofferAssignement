@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Filter.css";
 
 const RegionFilter = ({ onSelectRegion }) => {
   const handleRegionChange = (event) => {
@@ -8,8 +9,7 @@ const RegionFilter = ({ onSelectRegion }) => {
 
   return (
     <div>
-      <label>Select Region:</label>
-      <select defaultValue="Asia" onChange={handleRegionChange}>
+      <select className='select' defaultValue="Asia" onChange={handleRegionChange}>
         <option value="World">World</option>
 
         <option value="Asia">Asia</option>

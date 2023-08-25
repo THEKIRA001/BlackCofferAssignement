@@ -42,7 +42,7 @@ const IntensityGraph = ({selectedSector}) => {
           {
             label: "Intensity Total Occurance Per Year",
             data: intensity,
-            backgroundColor: "rgba(255,50,50)",
+            backgroundColor: "rgba(255, 99, 132, 0.4)",
           },
         ],
       });

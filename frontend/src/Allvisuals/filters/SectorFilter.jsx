@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Filter.css";
 
 const SectorFilter = ({ onSelectSector }) => {
   const handleSectorChange = (event) => {
@@ -8,8 +9,7 @@ const SectorFilter = ({ onSelectSector }) => {
 
   return (
     <div>
-      <label>Select Sector:</label>
-      <select defaultValue="Aerospace & defence" onChange={handleSectorChange}>
+      <select className="select" defaultValue="Aerospace & defence" onChange={handleSectorChange}>
         <option value="Aerospace & defence">Aerospace & defence</option>
         <option value="Automotive">Automotive</option>
         <option value="Construction">Construction</option>
