@@ -13,26 +13,26 @@ import IntensityGraph from "./Charts/IntensityGraph";
 import IntensityLineGraph from "./Charts/IntensityLineGraph";
 
 function App() {
-  const [selectSector1, setSelectSector1] = useState("Education");
-  const [selectRegion2, setSelectRegion2] = useState("Southern Asia");
-  const [selectRegion3, setSelectRegion3] = useState("Southern Asia");
-  const [selectSector4, setSelectSector4] = useState("Education");
+  const [selectRegion1, setSelectRegion1] = useState("Southern Asia");
+  const [selectSector2, setSelectSector2] = useState("Education");
+  const [selectSector3, setSelectSector3] = useState("Education");
+  const [selectRegion4, setSelectRegion4] = useState("Southern Asia");
   const [selectSector5, setSelectSector5] = useState("Education");
   const [selectRegion6, setSelectRegion6] = useState("South America");
   const [selectRegion7, setSelectRegion7] = useState("Southern Asia");
   const [selectSector8, setSelectSector8] = useState("Healthcare");
   
-  const handleSectorSelect1 = (sector) => {
-    setSelectSector1(sector);
+  const handleRegionSelect1 = (region) => {
+    setSelectRegion1(region);
   };
-  const handleRegionSelect2 = (region) => {
-    setSelectRegion2(region);
+  const handleSectorSelect2 = (sector) => {
+    setSelectSector2(sector);
   };
-  const handleRegionSelect3 = (region) => {
-    setSelectRegion3(region);
+  const handleSectorSelect3 = (sector) => {
+    setSelectSector3(sector);
   };
-  const handleSectorSelect4 = (sector) => {
-    setSelectSector4(sector);
+  const handleRegionSelect4 = (region) => {
+    setSelectRegion4(region);
   };
   const handleSectorSelect5 = (sector) => {
     setSelectSector5(sector);
@@ -49,22 +49,22 @@ function App() {
   return (
     <div className="container">
       <div className="chartCardContainer">
-        <SectorFilter onSelectSector={handleSectorSelect1} />
-        <TopicChart className="charts" selectedSector={selectSector1} />
+        <RegionFilter onSelectRegion={handleRegionSelect1} />
+        <LRGraph className="charts" selectedRegion={selectRegion1} />
+      </div>
+      <div className="chartCardContainer">
+        <SectorFilter onSelectSector={handleSectorSelect2} />
+        <IntensityGraph className="charts" selectedSector={selectSector2}/>
+      </div>
+      <div className="chartCardContainer">
+        <SectorFilter onSelectSector={handleSectorSelect3} />
+        <TopicChart className="charts" selectedSector={selectSector3} />
       </div>
       <div>
         <div className="chartCardContainer">
-          <RegionFilter onSelectRegion={handleRegionSelect2} />
-          <CountryChart className="charts" selectedRegion={selectRegion2} />
+          <RegionFilter onSelectRegion={handleRegionSelect4} />
+          <CountryChart className="charts" selectedRegion={selectRegion4} />
         </div>
-      </div>
-      <div className="chartCardContainer">
-        <RegionFilter onSelectRegion={handleRegionSelect3} />
-        <LRGraph className="charts" selectedRegion={selectRegion3} />
-      </div>
-      <div className="chartCardContainer">
-        <SectorFilter onSelectSector={handleSectorSelect4} />
-        <IntensityGraph className="charts" selectedSector={selectSector4}/>
       </div>
       <div className="chartCardContainer">
         <SectorFilter onSelectSector={handleSectorSelect5} />
